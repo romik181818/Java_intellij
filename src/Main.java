@@ -1,8 +1,13 @@
-void main(){
+void main() {
 
+    double a = 476.7;
+    double b = 329.7;
+    double c = 110.7;
 
-    BigInteger a = new BigInteger("1000000000000000000000") ;
-    System.out.println(a);
-    BigInteger result = a.multiply(new BigInteger("4444"));
-    System.out.println(result);
+   if (a > b && a > c){
+       System.out.println(a);
+   } else if (b > c) {
+       System.out.println(b);
+   }
+   else System.out.println(c);
 }
